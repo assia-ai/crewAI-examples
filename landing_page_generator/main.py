@@ -14,7 +14,7 @@ from tools.template_tools import TemplateTools
 
 from dotenv import load_dotenv
 load_dotenv()
-
+#
 class LandingPageCrew():
   def __init__(self, idea):
     self.agents_config = json.loads(open("config/agents.json", "r").read())
